@@ -4,8 +4,9 @@ body {
 }
 
 .navbar-brand {
-    color: #000;
+    color: #0d0543 !important;
     font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .nav-item a {
@@ -16,9 +17,28 @@ tr>td {
     font-size: 1rem;
 }
 
-h3 {
+h3,5 {
     color: #0d0543;
 }
 h1{
     line-height: 1.4;
 }
+.footer{
+    background: #fafafa;
+}
+a{
+    text-decoration: none;
+    color: #0d0543;
+    font-weight: 500;
+}
+@media screen  and (min-width:768px){
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+
