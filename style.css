@@ -1,10 +1,12 @@
 body {
     font-family: 'Inter', sans-serif;
-    color: #0d0543;
+    color: #060644;
 }
-
+.navbar{
+    background: #f4f6fc;
+}
 .navbar-brand {
-    color: #0d0543 !important;
+    color: #060644 !important;
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -17,19 +19,24 @@ tr>td {
     font-size: 1rem;
 }
 
-h3,5 {
-    color: #0d0543;
+h3,h5 {
+    color: #060644;
 }
 h1{
     line-height: 1.4;
 }
-.footer{
-    background: #fafafa;
+footer{
+    background: #f4f6fc;
 }
 a{
     text-decoration: none;
-    color: #0d0543;
+    color: #060644;
     font-weight: 500;
+}
+.code-block{
+    background: #060644;
+    border-radius: .5rem;
+    width: fit-content;
 }
 @media screen  and (min-width:768px){
     footer {
@@ -37,8 +44,7 @@ a{
         left: 0;
         bottom: 0;
         width: 100%;
-        text-align: center;
-        
+        text-align: center;        
     }
 }
 
